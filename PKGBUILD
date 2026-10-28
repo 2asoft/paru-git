@@ -1,11 +1,10 @@
-# Maintainer: Morgan <morganamilo@archlinux.org>
 pkgname=paru-git
 _pkgname=paru
-pkgver=2.1.0.r41.g789bead
+pkgver=2.1.0.r118.g1500019
 pkgrel=1
 pkgdesc='Feature packed AUR helper'
-url='https://github.com/morganamilo/paru'
-source=("git+https://github.com/morganamilo/paru")
+url='https://github.com/2asoft/paru'
+source=("git+https://github.com/2asoft/paru#branch=aasoft/aur-depends-provider-cache")
 backup=("etc/paru.conf")
 arch=('i686' 'pentium4' 'x86_64' 'arm' 'armv7h' 'armv6h' 'aarch64')
 license=('GPL-3.0-or-later')
